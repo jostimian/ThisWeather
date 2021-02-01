@@ -1,0 +1,13 @@
+C:\Users\josti\source\repos\WeatherSearch\bin\Debug\WeatherSearch.exe.config
+C:\Users\josti\source\repos\WeatherSearch\bin\Debug\WeatherSearch.exe
+C:\Users\josti\source\repos\WeatherSearch\bin\Debug\WeatherSearch.pdb
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.csprojAssemblyReference.cache
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.Form1.resources
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.Properties.Resources.resources
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.csproj.GenerateResource.cache
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.csproj.CoreCompileInputs.cache
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.exe
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.pdb
+C:\Users\josti\source\repos\WeatherSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\josti\source\repos\WeatherSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\josti\source\repos\WeatherSearch\obj\Debug\WeatherSearch.csproj.CopyComplete
