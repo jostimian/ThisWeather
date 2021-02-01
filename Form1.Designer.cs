@@ -41,6 +41,10 @@ namespace WeatherSearch
 			this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.latText = new System.Windows.Forms.Label();
+			this.weatherText = new System.Windows.Forms.Label();
+			this.HumidityText = new System.Windows.Forms.Label();
+			this.minTmpText = new System.Windows.Forms.Label();
+			this.MaxTmpText = new System.Windows.Forms.Label();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -127,17 +131,57 @@ namespace WeatherSearch
 			// latText
 			// 
 			this.latText.AutoSize = true;
-			this.latText.Location = new System.Drawing.Point(13, 97);
+			this.latText.Location = new System.Drawing.Point(13, 93);
 			this.latText.Name = "latText";
-			this.latText.Size = new System.Drawing.Size(55, 13);
+			this.latText.Size = new System.Drawing.Size(58, 13);
 			this.latText.TabIndex = 9;
-			this.latText.Text = "Latitude :";
+			this.latText.Text = "Latitude : ";
+			// 
+			// weatherText
+			// 
+			this.weatherText.AutoSize = true;
+			this.weatherText.Location = new System.Drawing.Point(13, 117);
+			this.weatherText.Name = "weatherText";
+			this.weatherText.Size = new System.Drawing.Size(60, 13);
+			this.weatherText.TabIndex = 10;
+			this.weatherText.Text = "Weather : ";
+			// 
+			// HumidityText
+			// 
+			this.HumidityText.AutoSize = true;
+			this.HumidityText.Location = new System.Drawing.Point(13, 140);
+			this.HumidityText.Name = "HumidityText";
+			this.HumidityText.Size = new System.Drawing.Size(62, 13);
+			this.HumidityText.TabIndex = 11;
+			this.HumidityText.Text = "Humidity : ";
+			// 
+			// minTmpText
+			// 
+			this.minTmpText.AutoSize = true;
+			this.minTmpText.Location = new System.Drawing.Point(158, 117);
+			this.minTmpText.Name = "minTmpText";
+			this.minTmpText.Size = new System.Drawing.Size(63, 13);
+			this.minTmpText.TabIndex = 12;
+			this.minTmpText.Text = "MinTemp : ";
+			// 
+			// MaxTmpText
+			// 
+			this.MaxTmpText.AutoSize = true;
+			this.MaxTmpText.Location = new System.Drawing.Point(158, 140);
+			this.MaxTmpText.Name = "MaxTmpText";
+			this.MaxTmpText.Size = new System.Drawing.Size(61, 13);
+			this.MaxTmpText.TabIndex = 13;
+			this.MaxTmpText.Text = "MaxTemp :";
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(557, 311);
+			this.Controls.Add(this.MaxTmpText);
+			this.Controls.Add(this.minTmpText);
+			this.Controls.Add(this.HumidityText);
+			this.Controls.Add(this.weatherText);
 			this.Controls.Add(this.latText);
 			this.Controls.Add(this.longhText);
 			this.Controls.Add(this.getWeather);
@@ -169,6 +213,10 @@ namespace WeatherSearch
 		private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
 		private System.Windows.Forms.MenuStrip menuStrip1;
 		private System.Windows.Forms.Label latText;
+		private System.Windows.Forms.Label weatherText;
+		private System.Windows.Forms.Label HumidityText;
+		private System.Windows.Forms.Label minTmpText;
+		private System.Windows.Forms.Label MaxTmpText;
 	}
 }
 
